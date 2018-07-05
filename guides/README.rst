@@ -14,6 +14,11 @@ Format for File DORN:
 
 | Column 3: Volume, page number of data 
 
+Data retrieved from: 
+
+1. Dorn, William S., et al. A Study Guide to Sherlock Holmes. Vol. 1, Pencil Productions, 2000.
+
+2. Dorn, William S., et al. A Study Guide to Sherlock Holmes. Vol. 2, Pencil Productions, 2000.
 
 How to run:
 -----------
