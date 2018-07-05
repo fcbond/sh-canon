@@ -17,6 +17,12 @@ url = {1:"http://www.beaconsociety.com/uploads/3/7/3/8/37380505/a_study_guide_to
 
 #offset ={1:12, 2:12}
 
+titles = dict()
+fh = open('../metadata/ABBR.tsv')
+for x in fh:
+    (abr, dt, title) = x.strip().split('\t')
+    titles[abr] = title
+
 ###
 ### Print out
 ###
@@ -25,14 +31,17 @@ print("""
 <html>
 <body>""")
 
-for story in dorn:
-    print('<h3>{}</h3>'.format(story))
-    for data in dorn[story]:
+for abr in dorn:
+    print('<h3>{} ({})</h3>'.format(titles[abr],abr))
+    for data in dorn[abr]:
         print ('<p><a href="{3}#page={4}">{0}</a>  on p{1}, vol{2}'.format(data,
-                                                                           dorn[story][data][1],
-                                                                           dorn[story][data][0],
-                                                                           url[dorn[story][data][0]],
-                                                                           dorn[story][data][1] +12))
+                                                                           dorn[abr][data][1],
+                                                                           dorn[abr][data][0],
+                                                                           url[dorn[abr][data][0]],
+                                                                           dorn[abr][data][1] +12))
+
+
+
 
 print("""
 </body>
