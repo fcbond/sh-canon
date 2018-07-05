@@ -1,6 +1,6 @@
 This directory contains more metadata.
 
-
+.. toctree::
 
 Canonical Abbreviations
 =======================
@@ -69,8 +69,6 @@ META.tsv
 
 This is for metadata that does not spoil the story.
 
-
-
 The meta-data file ``META.tsv`` has three columns::
 
   Abbreviation<tab>Datatype<tab>Value
@@ -92,3 +90,15 @@ The datatypes are:
 This data was mainly taken from ``The Conan Doyle Encyclopedia``_.
 
 -``The Conan Doyle Encyclopedia``: https://www.arthur-conan-doyle.com/
+
+
+LINKS.tsv
+=========
+
+This is for random links to other information.
+
+The meta-data file ``LINKS.tsv`` has three columns::
+
+  Abbreviation<tab>Title<tab>LINK
+
+
