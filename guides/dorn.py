@@ -10,7 +10,7 @@ for l in fh:
     tpl = [int(x) for x in tup.split(",")]
     dorn[story][data] = tpl
 
-print (dorn)
+# print (dorn)
     
 url = {1:"http://www.beaconsociety.com/uploads/3/7/3/8/37380505/a_study_guide_to_sherlock_holmes_--_volume_1.pdf",
        2:"http://www.beaconsociety.com/uploads/3/7/3/8/37380505/a_study_guide_to_sherlock_holmes_--_volume_2.pdf" }
