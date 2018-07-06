@@ -2,7 +2,7 @@ Format for File DORN:
 ---------------------
 
 +-------------+------------------+----------+
-|  Column 1   | Column 2         | Column 3 |
+|  Column 1   | Column 2: The    | Column 3 |
 |             | Data Represented |          |
 +=============+==================+==========+
 |4 letter     |Dates: Clues to   |Volume,   |
