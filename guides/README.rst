@@ -8,15 +8,15 @@ Format for File DORN:
 |4 letter     |Dates: Clues to   |Volume,   |
 |abbreviation |when each story   |page num  |
 |of story     |takes place.      |of data.  |
-|title.       ||Vocab: Story-    |          |
+|title.       |Vocab: Story-     |          |
 |             |specific lexicon  |          |
-|             ||Open-ended       |          |
+|             |Open-ended        |          |
 |             |questions: Long   |          |
 |             |answers.          |          |
-|             ||Multiple Choice: |          |
-|             ||Simple,          |          |
-|             ||Intermediate, and|          |
-|             ||Advanced.        |          |
+|             |Multiple Choice:  |          |
+|             |Simple,           |          |
+|             |Intermediate, and |          |
+|             |Advanced.         |          |
 +-------------+------------------+----------+
 
 Data retrieved from: 
