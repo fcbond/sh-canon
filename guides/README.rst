@@ -9,7 +9,7 @@ Format for File DORN:
 |abbreviation |when each story   |page num  |
 |of story     |takes place.      |of data.  |
 |title.       |Vocab: Story-     |          |
-|             |specific lexicon  |          |
+|             |specific lexicon. |          |
 |             |Open-ended        |          |
 |             |questions: Long   |          |
 |             |answers.          |          |
