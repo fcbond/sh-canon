@@ -17,18 +17,18 @@ To display this in HTML, the ILLUS.tsv file was run through the follow python pr
 
 .. codeblock:: python
 	:linenos:
-fh = open('/Users/nkusanda/desktop/sh-canon/pics/ILLUScamden')
-url{'camden': 'https://ignisart.com/camdenhouse/gallery/', 'vicweb': 'http://www.victorianweb.org/art/illustration/pagets/'}
-img{'camden': 'https://ignisart.com/camdenhouse/images/','vicweb': 'http://www.victorianweb.org/art/illustration/pagets/'}
+	fh = open('/Users/nkusanda/desktop/sh-canon/pics/ILLUScamden')
+	url{'camden': 'https://ignisart.com/camdenhouse/gallery/', 'vicweb': 'http://www.victorianweb.org/art/illustration/pagets/'}
+	img{'camden': 'https://ignisart.com/camdenhouse/images/','vicweb': 'http://www.victorianweb.org/art/illustration/pagets/'}
 
-for l in fh:
-    (abr, text, src, illustrator, n) = l.strip().split('\t')
-    print("""<p>{0}, <a href='{1}{3}.htm'><img src='{2}{3}.jpg'>{4}</a> by {5}""".format(abr,
-                                                                                 url[src],
-                                                                                img[src],
-                                                                                 n,
-                                                                                 text,
-                                                                                 illustrator))
+	for l in fh:
+    	(abr, text, src, illustrator, n) = l.strip().split('\t')
+    	print("""<p>{0}, <a href='{1}{3}.htm'><img src='{2}{3}.jpg'>{4}</a> by {5}""".format(abr,
+                                                                                 	url[src],
+                                                                                	img[src],
+                                                                                 	n,
+                                                                                 	text,
+                                                                                 	illustrator))
                                                                                 
 
 
