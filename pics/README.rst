@@ -15,8 +15,7 @@ SPEC	A HUGE MAN FRAMED HIMSELF IN THE APERTURE.	camden	Friedrich	spec-23
 
 To display this in HTML, the ILLUS.tsv file was run through the follow python program:
 
-.. codeblock:: python
-	:linenos:
+.. 
 	fh = open('/Users/nkusanda/desktop/sh-canon/pics/ILLUScamden')
 	url{'camden': 'https://ignisart.com/camdenhouse/gallery/', 'vicweb': 'http://www.victorianweb.org/art/illustration/pagets/'}
 	img{'camden': 'https://ignisart.com/camdenhouse/images/','vicweb': 'http://www.victorianweb.org/art/illustration/pagets/'}
@@ -29,8 +28,4 @@ To display this in HTML, the ILLUS.tsv file was run through the follow python pr
                                                                                  	n,
                                                                                  	text,
                                                                                  	illustrator))
-                                                                                
-
-
-
 This program would print HTML code to display the images in ILLUS.tsv, as well as metadata such as the story abbreviation, assoaciated text, and the illustrator. For images from 'camden' however, an error was encountered, as certain images used the extension '.gif' instead of '.jpg'. To overcome this in the future, the extension would be included in the image number / file name. 
