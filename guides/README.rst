@@ -1,9 +1,9 @@
-Format for File DORN:
----------------------
+Format for File DORN.tsv
+------------------------
 
-| Column 1: 4 letter abbreviation for story title 
+Column 1: 4 letter abbreviation for story title 
 
-| Column 2: Data represented.
+Column 2: Data represented.
 
 - Dates: Clues to when each story takes place
 - Vocab: Story-specific lexicon
@@ -12,10 +12,12 @@ Format for File DORN:
 - Multiple Choice Questions: Intermediate
 - Multiple Choice Questions: Advanced
 
-| Column 3: Volume, page number of data 
+Column 3: Volume, page number of data 
+
+```dorn.html``` has everything linked.
 
 
-How to run:
+How to make
 -----------
 
 .. code-block:: bash

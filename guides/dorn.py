@@ -4,13 +4,13 @@ from collections import defaultdict as dd
 # dorn['SPEC']['date'] = (1, 125)
 dorn = dd(lambda: dd(tuple))
 
-fh = open('DORN')
+fh = open('DORN.tsv')
 for l in fh:
     (story, data, tup) = l.strip().split('\t')
     tpl = [int(x) for x in tup.split(",")]
     dorn[story][data] = tpl
 
-print (dorn)
+#print (dorn)
     
 url = {1:"http://www.beaconsociety.com/uploads/3/7/3/8/37380505/a_study_guide_to_sherlock_holmes_--_volume_1.pdf",
        2:"http://www.beaconsociety.com/uploads/3/7/3/8/37380505/a_study_guide_to_sherlock_holmes_--_volume_2.pdf" }
