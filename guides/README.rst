@@ -14,7 +14,17 @@ Column 2: Data represented.
 
 Column 3: Volume, page number of data 
 
+
 ```dorn.html``` has everything linked.
+
+
+Data retrieved from 
+-------------------
+
+1. Dorn, William S., et al. A Study Guide to Sherlock Holmes. Vol. 1, Pencil Productions, 2000.
+
+2. Dorn, William S., et al. A Study Guide to Sherlock Holmes. Vol. 2, Pencil Productions, 2000.
+
 
 
 How to make
