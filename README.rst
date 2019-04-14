@@ -1,7 +1,8 @@
 sh-canon
 --------
 
-A readable version of the canon of Sherlock Holmes
+Software and data to produce a `readable version of the canon of Sherlock Holmes.
+<https://fcbond.github.io/sh-canon/>`_
 
 Here we are collecting some useful information for the stories.
 
