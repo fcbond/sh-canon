@@ -1,0 +1,39 @@
+/* attribute value in sidenotes */
+
+span
+
+.snattr {
+    font-weight: bold;
+    /* display: inline-block;  */
+    width: 50em;
+    /* margin-right: 1e<span class=m;  */
+    /* margin-left: 2em;  */
+}
+
+.snattrn {
+    font-weight: bold;
+    margin-left: 0.6em;
+}
+
+
+.snval {
+  /* display: float; */
+}
+/* ul { */
+/*     list-style: none; */
+/*     padding: 0px; */
+/* } */
+
+/* ul li:before */
+/* { */
+/*     content: 	🔎; */
+/*     margin: 0 1em;    /\* any design *\/ */
+/* } */
+
+ 
+p {
+  margin-bottom: 0 }
+p + p {
+    text-indent: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: 0.5ex }
