@@ -1,6 +1,5 @@
 This directory contains more metadata.
 
-.. toctree::
 
 Canonical Abbreviations
 =======================
