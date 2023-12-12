@@ -16,7 +16,8 @@ SPEC	A HUGE MAN FRAMED HIMSELF IN THE APERTURE.	camden	Friedrich	spec-23
 To display this in HTML, the ILLUS.tsv file was run through the follow python program:
 
 .. code:: python
-	fh = open('/Users/nkusanda/desktop/sh-canon/pics/ILLUScamden')
+	
+        fh = open('/Users/nkusanda/desktop/sh-canon/pics/ILLUScamden')
 	url{'camden': 'https://ignisart.com/camdenhouse/gallery/', 'vicweb': 'http://www.victorianweb.org/art/illustration/pagets/'}
 	img{'camden': 'https://ignisart.com/camdenhouse/images/','vicweb': 'http://www.victorianweb.org/art/illustration/pagets/'}
 
